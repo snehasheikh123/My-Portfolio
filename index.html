@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneha - portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+<h1>
+    Sneha Portfolio
+</h1><ul id="sidemenu">
+    <li><a href="#header">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+</ul>
+<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+
+<section class="firstsection">
+    <div class="leftsection">
+      <div>Hi, My name is<span class="purple"> Sneha  </span></div> 
+      <div>and i am a Passionate</div>
+      <span id="element"></span>
+      <!-- <div class="buttons">
+        <button class="btn">Dowload Resume</button>
+        <button class="btn">Visit Github</button>
+      </div> -->
+    </div>
+    <div class="rightsection">
+      <img src="image/profile.png" alt="profile" />
+    </div>
+  </section>
+</nav>
+  <!---------------------------------about------------------------------>
+<div id="about">
+<div class="container">
+<div class="row">
+<div class="about-col-1">
+    <img src="image/about.png" alt="">
+</div>
+<div class="about-col-2">
+  <h1 class="sub-title">About Me</h1>
+  <p style="text-align: justify;"> I'm <b>Sneha Perween</b>, a passionate frontend and backend developer with a keen interest in digital marketing. I specialize in building responsive, user-friendly, and dynamic web applications using technologies like HTML, CSS, JavaScript, React, MySQL, and PHP.
+
+    I love solving problems through code and continuously learning new technologies to enhance my skills. My goal is to create impactful digital solutions that improve user experience and functionality.
+    
+    Apart from development, I am also interested in digital marketing strategies, helping businesses and individuals establish a strong online presence. I believe in continuous growth, innovation, and adapting to the ever-evolving tech industry</p>
+<div class="tab-title">
+  <p class="tab-links active-link" onclick="opentab('Skills')">Skils</p>
+  <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+  <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+</div>
+<div class="tab-content active-tab " id="Skills">
+  <ul>
+    <li><span> Web Development </span><br>HTML, CSS, JavaScript, React, PHP, MySQL</li>
+    <br>
+    <li><span> UI/UX Design</span><br>Web & App Interface Design (Figma, Canva)</li><br>
+    <li><span>Tools & Technologies</span><br>Design Web/App interfaces</li><br>
+    <li><span>Soft Skills</span><br>Problem-Solving, Communication, Time Management</li>
+
+  </ul>
+</div>
+<div class="tab-content" id="Experience">
+  <ul>
+    <li><span>January 2025 – Present</span><br> Internshala Student Partner (ISP) | Internshala
+    </li><br>
+
+    <li><span> (25 July 2024 - 25 Oct 2024)</span><br>
+      Web Development Intern | Software Service and Solution Company
+    </li>
+    <!-- <li><span>22017016-</span><br>inernship</li> -->
+
+  </ul>
+</div>
+<div class="tab-content" id="Education">
+  <ul>
+    <li><span>2021-2024</span><br> Diploma in Computer Science & Engineering
+      <br> Jamia Polytechnic, MSBTE Board
+    </li>
+    <br>
+    <li><span>2021</span><br>Secondary Education (10th),<br> Bihar School Examination Board (BSEB)</li>
+    <!-- <li><span>2018</span><br>Design Web/App interfaces</li> -->
+
+  </ul>
+</div>
+</div>
+
+</div>
+</div>  
+
+    </div>
+    <!--------------SErvices --------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p style="text-align: justify;">Creating visually appealing and user-friendly website interfaces with a focus on 
+              <strong>responsive design, UI/UX, and performance optimization</strong>.  
+              Skilled in <strong>HTML, CSS, JavaScript, and modern frameworks</strong> like React and Tailwind CSS to craft seamless digital experiences.
+          </p>
+          <a href="#">Learn More</a>
+          </div>
+       
+         
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/ UX Design</h2>
+            <p style="text-align: justify;">
+              Designing intuitive and user-friendly web & app interfaces that enhance user experience.  
+              Focus on user research, wireframing, prototyping, and responsive design to create engaging digital solutions.  
+              Skilled in tools like Figma, Adobe XD, and Canva, ensuring aesthetic and functional designs.        
+            </p>
+              <a href="#">Learn More</a>
+          </div>
+        
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2> Graphic Design</h2>
+            <p style="text-align: justify;">
+
+              Crafting unique brand identities with logo design, social media graphics, and visual storytelling.  
+              Specialized in creating eye-catching posters, banners, and marketing materials using tools like Canva, Adobe Photoshop, and Illustrator.  
+              Passionate about delivering creative, high-quality designs that leave a lasting impression.
+            </p>
+              <a href="#">Learn More</a>
+          </div>
+      </div>
+      </div>
+    </div>
+    <!-------------------------------Portfolio------------------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+<div class="work-list">
+  <div class="work">
+    <img src="image/work1.webp" alt="work1">
+    <div class="layer">
+      <h2>
+         PG Booking Website
+      </h2>
+      <p style="text-align: justify;">A PG (Paying Guest) Booking Website that allows users to search, filter, and book PG accommodations effortlessly. The platform provides a responsive and interactive interface, real-time property availability, and a secure database for storing user and owner details</p>
+      <br>
+      
+    <a href="https://github.com/snehasheikh123/Hotel-booking-website.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+    
+  </div>
+  <div class="work">
+    <img src="image/work1.webp" alt="work1">
+    <div class="layer">
+      <h2>
+        Career Guidance System
+      </h2>
+      <p style="text-align: justify;">A career guidance platform designed to help users find the best career path based on their skills, interests, and personality assessment. The platform provides personalized career recommendations, detailed insights into various career options, and resources to guide users toward their professional goals.</p>
+    <a href="https://sparkfuture.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+  </div>
+  <div class="work">
+    <img src="image/work1.webp" alt="work1">
+    <div class="layer">
+      <h2>
+        Madarsa Website      </h2>
+      <p style="text-align: justify;">A Madarsa website designed to provide information about the institution, its courses, admission process, faculty, and events. The platform ensures a user-friendly experience for students, teachers, and parents by offering essential updates and online resources.</p>
+    <a href="https://github.com/snehasheikh123/Madarsa-websites.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+  </div>
+</div>
+<a href="#" class="btn">See More</a>
+
+      </div>
+    </div>
+    <!------------------------------------Contact------------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title"> Contact Me </h1>
+            <p> <i class="fa-solid fa-paper-plane"></i>snehaazad123@gmail.com</p>
+            <p><i class="fa-solid fa-phone-volume"></i>+91 9835088469</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://github.com/snehasheikh123"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.instagram.com/__sneha._here__/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/sneha-perween-1216a2306/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="image/SNEHA PERWEEN.pdf" download class="btn btn2">Dowload CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder=" Your name" required>
+              <input type="email" name="email" placeholder=" Your Email" required>
+              <textarea name="Messege" rows="6" placeholder="Your Messege"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="copyright">
+                  <p>Designed & Developed by <i class="fa-solid fa-heart"></i>  Sneha | © 2025 All Rights Reserved</p>
+                </div>
+          </div>
+
+        
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js">
+      </script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Web Designer", "Frontend Developer"],
+        typeSpeed: 50,
+      });
+      </script>
+      <script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-content");
+
+function opentab(tabname) {
+  for (tablink of tablinks) {
+    tablink.classList.remove("active-link");
+  }
+  for (tabcontent of tabcontents) {
+    tabcontent.classList.remove("active-tab");
+  }
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+<script>
+  var sidemenu = document.getElementById('sidemenu');
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzv_yIoMA6chj-OWE_AlsaUmEv-bVPwFLPj1qwymRBZolNzyswVaD5exNBgD5al_IFY/exec'
+  const form = document.forms['submit-to-google-sheet']
+const msg =document.getElementById(msg)
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML ="Message Sent Successfully"
+        setTimeout(function(){
+          msg.innerHTML= ""
+        },5000)
+        form.reset()
+        })
+      
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
