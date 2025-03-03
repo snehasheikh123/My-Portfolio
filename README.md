@@ -5,8 +5,7 @@
 ---
 
 ## 📌 Project Overview  
-- **Frontend:** Built with **HTML, CSS, JavaScript, and Bootstrap** for an elegant and responsive design.  
-- **Backend (if applicable):** Powered by **PHP & MySQL** to handle dynamic content.  
+- **Frontend:** Built with **HTML, CSS, and JavaScript* for an elegant and responsive design.   
 - **Modern UI:** Interactive and engaging design with smooth animations.  
 
 ---
@@ -26,8 +25,7 @@
 ---
 
 ## 🛠️ Tech Stack  
-- **Frontend:** HTML | CSS | JavaScript | Bootstrap  
-- **Backend:** PHP | MySQL *(if applicable)*  
+- **Frontend:** HTML | CSS | JavaScript     
 - **Tools:** GitHub | VS Code | Microsoft Office  
 
 ---
